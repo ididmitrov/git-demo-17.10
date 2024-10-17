@@ -1,14 +1,23 @@
-body {
-    background: blue;
-    font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: yellow;
-
+*{
+    padding: 0;
+    margin: 0;
 }
-p{
-    font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;
-
-    color: greenyellow;
+form{
+    
+    width:60%;
+    margin: auto;
+    margin-top: 40%;
+    padding: 50px 20px;
+    text-align: center;
+    border-radius: 20px;
+    background: lightblue !important;
+}
+form>*{
+margin-bottom: 20px;
 }
 
+button{
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
